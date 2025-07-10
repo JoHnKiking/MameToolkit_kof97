@@ -46,11 +46,6 @@ The following works are done in this project
 7. 胜率记录频率 - win_rate_freq
 8. 总体训练频次 - total_freq
 
-## 共享盘
-在共享盘根目录下 `./shared/kof97/`
-- 存档 - sta
-- 游戏roms - roms
-- 已训练模型 - model
 
 
 ## 快速启动
