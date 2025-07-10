@@ -1,0 +1,25 @@
+manager:machine():load("/home/workspace/KOF97Saves/CH0/a.sta")
+manager:machine():load
+manager:machine():load("/home/workspace/KOF97Saves/CH0/a.sta")
+(manager:machine()):load("/home/workspace/KOF97Saves/CH0/a.sta")
+print(machine)
+print(manager.machine)
+emu.load_state("/home/workspace/KOF97Saves/CH0/a.sta")
+for k,v in pairs(_G) do print(k, type(v)) end
+print(manager)
+print(manager.machine)
+print(machine)
+print(emu)
+emu.load_state("/home/workspace/KOF97Saves/CH0/a.sta")
+
+print("Manager.machine type:", type(manager.machine))
+emu.pause
+emu.pause()
+print(manager.machine:system().name)
+manager.machine:load("/home/workspace/KOF97Saves/CH0/a.sta")
+manager:machine():load("/home/workspace/KOF97Saves/CH0/a.sta")
+manager:machine:load("/home/workspace/KOF97Saves/CH0/a.sta")
+manager.machine:load("/home/workspace/KOF97Saves/CH0/a.sta")
+print(manager.machine)
+print(manager:machine())
+
